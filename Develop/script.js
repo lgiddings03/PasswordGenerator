@@ -13,17 +13,24 @@ while (!uppers && !lowers && !numbers && !symbols) {
   uppers = confirm("Would you like uppercase letters?");
   lowers = confirm("Would you like lowercase letters?");
   numbers = confirm("Would you like numbers?");
-  symbols = confirm ("Would you like special characters?");
-  }
+  symbols = confirm("Would you like special characters?");
+}
 
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
+.passwordText.value = password;
 
-  passwordText.value = password;
+if (uppers) password += (allowed.uppers = "ABCDEFGHIJKLMNOPQURSTUVWXYZ");
+if (lowers) password += (allowed.lowers = "abcdefghijklmnopqrstuvwxyz");
+if (numbers) password += (allowed.nummbers = "0123456789");
+if (symbols) password += (allowed.symbols = "!@#$%^&*()-_=+[]{};:'<>/?'");
 
+let (var i = password.lenght; i < length; i++) password += ((allowed).value);
+document. getElementById ("password").value = randoSequence("password").join("");
 }
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+<input type="text" id="passwor" />
