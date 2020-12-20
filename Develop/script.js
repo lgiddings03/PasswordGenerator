@@ -22,10 +22,10 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 .passwordText.value = password;
 
-if (uppers) password += (allowed.uppers = "ABCDEFGHIJKLMNOPQURSTUVWXYZ");
-if (lowers) password += (allowed.lowers = "abcdefghijklmnopqrstuvwxyz");
-if (numbers) password += (allowed.nummbers = "0123456789");
-if (symbols) password += (allowed.symbols = "!@#$%^&*()-_=+[]{};:'<>/?'");
+if (uppers) password += randoSequence(allowed.uppers = "ABCDEFGHIJKLMNOPQURSTUVWXYZ");
+if (lowers) password += randoSequence(allowed.lowers = "abcdefghijklmnopqrstuvwxyz");
+if (numbers) password += randoSequence(allowed.nummbers = "0123456789");
+if (symbols) password += randoSequence(allowed.symbols = "!@#$%^&*()-_=+[]{};:'<>/?'");
 
 let (var i = password.lenght; i < length; i++) password += ((allowed).value);
 document. getElementById ("password").value = randoSequence("password").join("");
