@@ -22,15 +22,16 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 .passwordText.value = password;
 
-if (uppers) password += randoSequence(allowed.uppers = "ABCDEFGHIJKLMNOPQURSTUVWXYZ");
-if (lowers) password += randoSequence(allowed.lowers = "abcdefghijklmnopqrstuvwxyz");
-if (numbers) password += randoSequence(allowed.nummbers = "0123456789");
-if (symbols) password += randoSequence(allowed.symbols = "!@#$%^&*()-_=+[]{};:'<>/?'");
+  if (uppers) password += randoSequence(allowed.uppers = "ABCDEFGHIJKLMNOPQURSTUVWXYZ");
+  if (lowers) password += randoSequence(allowed.lowers = "abcdefghijklmnopqrstuvwxyz");
+  if (numbers) password += randoSequence(allowed.nummbers = "0123456789");
+  if (symbols) password += randoSequence(allowed.symbols = "!@#$%^&*()-_=+[]{};:'<>/?'");
 
-let (var i = password.lenght; i < length; i++) password += ((allowed).value);
-document. getElementById ("password").value = randoSequence("password").join("");
+  let(var i = password.lenght; i < length; i++) password += ((allowed).value);
+  document.getElementById("password").value = randoSequence("password").join("");
 }
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-<input type="text" id="passwor" />
+<input type="text" id="password" />
+<button onclick "generatePassword();" > Generate New Password</button >
