@@ -33,5 +33,10 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-<input type="text" id="password" />
-<button onclick "generatePassword();" > Generate New Password</button >
+newFunction(); "generatePassword();" > Generate New Password</button >
+  function newFunction() {
+    <input type="text" id="password" />
+      ,
+      <button onclick />;
+  }
+
