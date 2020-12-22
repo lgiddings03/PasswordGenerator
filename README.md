@@ -25,6 +25,6 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
-Deployed page: [github] (https://lgiddings03.github.io/PasswordGenerator/)
-github link: {github] (https://github.com/lgiddings03/PasswordGenerator/tree/master/README.md)
+Deployed page: https://lgiddings03.github.io/PasswordGenerator/ 
+github link:  https://github.com/lgiddings03/PasswordGenerator/tree/master/README.md 
 
